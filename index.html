@@ -119,12 +119,12 @@
               </span>
               <!-- Slides Link. Coming soon.-->
               <span class="link-block">
-                <a href="./"
+                <a href="./static/slides/CENSOR_NDSS25_slides.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-powerpoint"></i>
                   </span>
-                  <span>Slides (Coming soon)</span>
+                  <span>Slides</span>
                 </a>
               </span>
               <!-- Video Link. Coming soon.-->
@@ -144,15 +144,27 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Intuition</h2>
+        <div class="content has-text-justified">
+          <p>
+            In high-level, CENSOR samples gradients in a <span style="color: #FFD700">subspace</span> that is 
+            <span style="color: #FFD700">orthogonal</span> to the <span style="color: #87CEEB">original gradient</span> layer by layer and select the one 
+            that achieves the <span style="color: #FF4500">lowest loss</span>.
+          </p>
+          <div style="text-align:center;">
+            <img src="./static/images/intuition.jpg" alt="intuition"
+                style="margin: 0 auto; display: block; max-width: 1000px; width: 50%; height: auto;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div style="text-align:center;">
-  <img src="./static/images/overview.png" alt="illustrative-example"
-      style="margin: 0 auto; display: block; max-width: 850px; width: 80%; height: auto;" />
-  <br>
-  <h2 class="subtitle has-text-centered">
-    CENSOR perturbs gradients within a <i>subspace orthogonal</i> to the original gradient.
-  </h2>
-</div>
 
 
 <section class="section">
@@ -172,6 +184,16 @@
     <!--/ Abstract. -->  
   </div>
 </section>
+
+<div style="text-align:center;">
+  <img src="./static/images/overview.png" alt="illustrative-example"
+      style="margin: 0 auto; display: block; max-width: 850px; width: 80%; height: auto;" />
+  <br>
+  <h2 class="subtitle has-text-centered">
+    CENSOR perturbs gradients within a <i>subspace orthogonal</i> to the original gradient.
+  </h2>
+</div>
+
 
 <section class="section">
   <div class="container is-max-desktop">
